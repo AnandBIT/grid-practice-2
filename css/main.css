@@ -18,7 +18,7 @@ html {
   grid-template-rows: 1fr 1.5fr 6.5fr 1fr;
   gap: 1rem;
   border-radius: .8rem;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.425) 50%, rgba(0, 0, 0, 0.125) 100%);
+  background: linear-gradient(-10deg, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.425) 50%, rgba(0, 0, 0, 0.125) 100%);
   padding: 1rem;
   grid-template-areas: ". head head ." "box-1 box-2 box-3 side" "main main main side" "foot foot foot foot";
 }
