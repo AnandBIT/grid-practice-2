@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 750px;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 0.75fr;
+  grid-template-rows: 1fr 2fr 8fr 1fr;
+  gap: 1rem;
+}
+
+.item {
+  background-color: orangered;
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: .8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item--1 {
+  grid-column: 1/-1;
+}
+
+.item--5 {
+  grid-area: 2/4/span 2/5;
+}
+
+.item--6 {
+  grid-column: 1/span 3;
+}
+
+.item--7 {
+  grid-column: 1/-1;
+}
